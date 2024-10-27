@@ -1,0 +1,8 @@
+/* يمكن إزالة التنسيقات غير الضرورية إذا كنت تستخدم Bootstrap فقط */
+.book-card {
+    transition: transform 0.3s; /* تأثير التحول عند التمرير */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* رفع البطاقة قليلاً عند التمرير */
+}

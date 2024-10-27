@@ -1,0 +1,32 @@
+/* CustomNavbar.css */
+
+/* تعديل لون الخلفية للـ Navbar */
+.navbar {
+    background-color: #343a40; /* لون داكن */
+}
+
+/* تعديل لون الروابط */
+.nav-link {
+    color: white;
+    transition: color 0.3s;
+}
+
+/* تغيير لون الرابط عند التمرير فوقه */
+.nav-link:hover {
+    color: #ffdd57; /* لون مميز عند التمرير */
+}
+
+/* تغيير أيقونة القائمة المنسدلة (الهامبرجر) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler .fa-bars {
+    color: white;
+}
+
+/* تباعد في النصوص */
+.navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+}

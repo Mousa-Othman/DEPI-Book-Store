@@ -1,0 +1,52 @@
+.add-book {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.add-book h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.add-book form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* مساحة بين الحقول */
+    justify-content: space-between; /* توزيع الفضاء بين الحقول */
+}
+
+.add-book input,
+.add-book textarea {
+    flex: 1 1 calc(48% - 10px); /* نسبة الحقل الواحد */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-book button {
+    flex: 1 1 100%; /* الزر يأخذ عرض كامل */
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* تأثير الانتقال */
+}
+
+.add-book button:hover {
+    background-color:black; /* تغيير اللون عند التمرير */
+}
+
+.add-book .success {
+    color: green;
+    text-align: center;
+}
+
+.add-book .error {
+    color: red;
+    text-align: center;
+}

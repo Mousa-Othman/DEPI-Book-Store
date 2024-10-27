@@ -1,0 +1,5 @@
+/* يمكن إزالة التنسيقات غير الضرورية إذا كنت تستخدم Bootstrap فقط */
+.book-list-container {
+    background-color: #e9ecef; /* يمكنك تغيير اللون كما تريد */
+    padding: 10px; /* مسافة داخلية */
+}
