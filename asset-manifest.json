@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DEPI-Book-Store/static/css/main.9d96d7b9.css",
-    "main.js": "/DEPI-Book-Store/static/js/main.61a09b98.js",
+    "main.js": "/DEPI-Book-Store/static/js/main.a01cfaba.js",
     "static/js/453.917ce1a7.chunk.js": "/DEPI-Book-Store/static/js/453.917ce1a7.chunk.js",
     "static/media/home.jpeg": "/DEPI-Book-Store/static/media/home.99054ce262542dc7170b.jpeg",
     "static/media/fa-solid-900.ttf": "/DEPI-Book-Store/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -14,11 +14,11 @@
     "static/media/fa-v4compatibility.woff2": "/DEPI-Book-Store/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/DEPI-Book-Store/index.html",
     "main.9d96d7b9.css.map": "/DEPI-Book-Store/static/css/main.9d96d7b9.css.map",
-    "main.61a09b98.js.map": "/DEPI-Book-Store/static/js/main.61a09b98.js.map",
+    "main.a01cfaba.js.map": "/DEPI-Book-Store/static/js/main.a01cfaba.js.map",
     "453.917ce1a7.chunk.js.map": "/DEPI-Book-Store/static/js/453.917ce1a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d96d7b9.css",
-    "static/js/main.61a09b98.js"
+    "static/js/main.a01cfaba.js"
   ]
 }
