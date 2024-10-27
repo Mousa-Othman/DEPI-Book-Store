@@ -97,8 +97,8 @@ class AddBook extends Component {
         const { name, author, description, value, publishDate, categoryId, categories } = this.state;
 
         return (
-            <div className={`card ${styles['add-book']} bg-info`} style={{ minHeight: '100vh' }}>
-                <h2 className="card-header">Addition Book</h2>
+            <div className={`card ${styles['add-book']} bg-secondary text-light`} style={{ minHeight: '100vh' }}>
+                <h2 className="card-header text-light bg-gradient">Addition Book</h2>
                 <div className="card-body" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '100%' }}>
                     <form onSubmit={this.handleSubmit} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
                     <div className="form-group" style={{ minHeight: '80px' }}>
@@ -182,7 +182,7 @@ class AddBook extends Component {
                         />
                     </div>
 
-                    <button type="submit" className="btn btn-secondary" style={{ gridColumn: '1 / span 2', justifySelf: 'center' }}>
+                    <button type="submit" className="btn btn-secondary bg-dark w-100" style={{ gridColumn: '1 / span 2', justifySelf: 'center' }}>
                         Add
                     </button>
                     </form>
